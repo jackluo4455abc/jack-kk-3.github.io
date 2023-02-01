@@ -1,0 +1,21 @@
+<!--link rel="stylesheet" type="text/css" href="style.css">-->
+@keyframes kk-color{
+    0%{background-color:red;}
+    20%{background-color:orange;}
+    40%{background-color:yellow;}
+    60%{background-color:green;} 
+    80%{background-color:blue;}
+    100%{background-color:purple;}
+}
+.box{
+    width:200px;
+    height:200px;
+    background-color: gray;
+    position:relative;
+}
+.box-animation{
+    animation-name:kk-color;
+    animation-duration:10s;
+    animation-iteration-count:1s;
+    animation-delay: 2s;
+}
